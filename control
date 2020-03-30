@@ -3,7 +3,7 @@ Name: kbvibe
 Depends: mobilesubstrate
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
+Description: A tweak that sends a small haptic tick on keypress.
 Maintainer: 0x416c6578
 Author: 0x416c6578
 Section: Tweaks
