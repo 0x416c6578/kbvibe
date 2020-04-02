@@ -1,13 +1,16 @@
 #import <UIKit/UIKit.h>
 #import <AudioToolbox/AudioServices.h>
 
-%hook UIKeyboardLayoutStar
+%hook SBVolumeControl
 
-- (void)playKeyClickSoundOnDownForKey:(id*) arg {
-	
-	AudioServicesPlaySystemSound(1519);
+-(void)increaseVolume {
 	%orig;
+	AudioServicesPlaySystemSound(1519);
+}
 
+-(void)decreaseVolume {
+	%orig;
+	AudioServicesPlaySystemSound(1519);
 }
 
 %end

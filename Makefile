@@ -9,5 +9,5 @@ TWEAK_NAME = kbvibe
 
 kbvibe_FILES = Tweak.x
 kbvibe_CFLAGS = -fobjc-arc
-
+kbvive_FRAMEWORKS = UIKit AudioToolbox
 include $(THEOS_MAKE_PATH)/tweak.mk
